@@ -1,7 +1,5 @@
 # AbdiSupport
 
-**"Abdi baat karta hai"** — Abdi talks.
-
 ## Domain
 Customer support conversation — **for third-party products/businesses**, not for the ABDI platform itself.
 

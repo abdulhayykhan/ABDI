@@ -1,7 +1,5 @@
 # AbdiCode
 
-**"Abdi code karta hai"** — Abdi codes.
-
 ## Domain
 Code generation and debugging.
 

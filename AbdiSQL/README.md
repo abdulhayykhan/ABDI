@@ -1,7 +1,5 @@
 # AbdiSQL
 
-**"Abdi query banata hai"** — Abdi builds the query.
-
 ## Domain
 Natural language → SQL query generation and explanation.
 

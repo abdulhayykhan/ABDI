@@ -1,7 +1,5 @@
 # AbdiMath
 
-**"Abdi math karta hai"** — Abdi does the math.
-
 ## Domain
 Math reasoning and tutoring.
 

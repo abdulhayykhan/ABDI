@@ -1,7 +1,5 @@
 # AbdiFinance
 
-**"Abdi hisab karta hai"** — Abdi does the accounting.
-
 ## Domain
 Finance / accounting / invoicing — **deliberately narrowed from the original broader "finance, accounting, invoicing" framing.**
 

@@ -1,7 +1,5 @@
 # AbdiTeach
 
-**"Abdi parhata hai"** — Abdi teaches.
-
 ## Domain
 School/intermediate-level science concept explanation (Physics, Chemistry, Biology).
 

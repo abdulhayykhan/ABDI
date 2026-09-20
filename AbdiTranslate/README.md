@@ -1,7 +1,5 @@
 # AbdiTranslate
 
-**"Abdi tarjuma karta hai"** — Abdi translates.
-
 ## Domain
 Urdu ⇄ English translation.
 

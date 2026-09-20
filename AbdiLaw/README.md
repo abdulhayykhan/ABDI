@@ -1,7 +1,5 @@
 # AbdiLaw
 
-**"Abdi qanoon samjhta hai"** — Abdi understands the law.
-
 ## Domain
 Legal document explanation — **rescoped from the original "legal drafting, contracts, agreements" framing.**
 
@@ -9,7 +7,7 @@ Legal document explanation — **rescoped from the original "legal drafting, con
 Planned — thirteenth in build order (deliberately last among the standard experts, before AbdiMed).
 
 ## ⚠️ Scope (v1) — rescoped for liability reasons
-- **Original framing ("Abdi qanoon samjhta hai" as legal *drafting*) was rejected.** A small fine-tuned model producing subtly wrong binding legal text is a worse outcome than producing nothing — errors in generated legal drafts have real consequences a hobby/student project should not be generating.
+- **Original framing (legal *drafting*) was rejected.** A small fine-tuned model producing subtly wrong binding legal text is a worse outcome than producing nothing — errors in generated legal drafts have real consequences a hobby/student project should not be generating.
 - **Rescoped to: explaining what a contract clause means, and flagging commonly risky/unusual terms in a document the user provides.**
 - **Explicitly out of scope, permanently, not just for v1: drafting or finalizing binding legal agreements.**
 

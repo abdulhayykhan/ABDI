@@ -1,7 +1,5 @@
 # AbdiWrite
 
-**"Abdi likhta hai"** — Abdi writes.
-
 ## Domain
 Bilingual (Urdu / English / Roman-Urdu) grammar and style correction, light rewriting.
 

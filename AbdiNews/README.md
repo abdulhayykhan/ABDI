@@ -1,7 +1,5 @@
 # AbdiNews
 
-**"Abdi khabar deta hai"** — Abdi delivers the news.
-
 ## Domain
 News summarization.
 

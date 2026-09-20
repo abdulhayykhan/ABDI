@@ -1,7 +1,5 @@
 # AbdiData
 
-**"Abdi data samjhta hai"** — Abdi understands the data.
-
 ## Domain
 Data analysis / spreadsheet / tabular Q&A.
 

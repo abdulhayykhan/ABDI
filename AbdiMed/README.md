@@ -1,7 +1,5 @@
 # AbdiMed
 
-**"Abdi samjhata hai"** — Abdi explains. *(Rescoped from the original "Abdi ilaj samjhata hai" / Abdi explains treatment.)*
-
 ## Domain
 Medical/health information explanation — **rescoped from the original "medical/health info assistant" framing.**
 
@@ -9,7 +7,7 @@ Medical/health information explanation — **rescoped from the original "medical
 Planned — last in build order, and the model most likely to be reconsidered entirely for a student portfolio project given its liability profile.
 
 ## ⚠️ Scope (v1) — rescoped for liability reasons
-- **Original framing implied treatment guidance ("ilaj" = treatment). This was rejected.** A fine-tuned sub-3B model confidently producing wrong dosage/treatment/diagnosis information is a genuine safety risk, not just a quality problem — this is a different risk category from every other model on this platform.
+- **Original framing implied treatment guidance. This was rejected.** A fine-tuned sub-3B model confidently producing wrong dosage/treatment/diagnosis information is a genuine safety risk, not just a quality problem — this is a different risk category from every other model on this platform.
 - **Rescoped to: explaining medical terminology and lab report values in plain language.**
 - **Explicitly out of scope, permanently: diagnosis, dosage guidance, treatment recommendations, or any advice intended to be acted on medically.**
 

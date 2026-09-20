@@ -1,7 +1,5 @@
 # AbdiMarketing
 
-**"Abdi marketing karta hai"** — Abdi does the marketing.
-
 ## Domain
 Ad copy, marketing content, SEO writing.
 

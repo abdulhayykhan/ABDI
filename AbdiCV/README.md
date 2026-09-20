@@ -1,7 +1,5 @@
 # AbdiCV
 
-**"Abdi CV banata hai"** — Abdi builds the CV.
-
 ## Domain
 Resume / CV and cover letter generation.
 

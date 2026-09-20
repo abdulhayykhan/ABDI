@@ -8,7 +8,7 @@
 
 ## What is ABDI?
 
-ABDI is a collection of small (≈0.5B–3B parameter) fine-tuned language models, each an expert in one narrow domain, instead of one large general-purpose model trying to do everything. The naming convention follows a simple pattern in Urdu/Roman-Urdu: **"Abdi ___ karta hai"** (Abdi does ___) — each model's name states what it does.
+ABDI is a collection of small (≈0.5B–3B parameter) fine-tuned language models, each an expert in one narrow domain, instead of one large general-purpose model trying to do everything. The naming convention follows a direct pattern where each model's name states the specific task or domain it specializes in.
 
 The core bet: a small model, fine-tuned tightly on one domain with a clear evaluation metric, can outperform a general-purpose model of similar or even larger size *within that domain*, while being cheap enough to run on modest hardware.
 
