@@ -10,7 +10,7 @@ Build order is strictly sequenced by data availability, objectivity of evaluatio
 
 | # | Model | Domain | Current Status | Primary Evaluation Gate | Model Build Docs |
 |---|---|---|---|---|---|
-| 1 | **AbdiSQL** | Text-to-SQL query generation & explanation | **Complete (Gate Passed)** | Execution accuracy vs. zero-shot baseline (+3.34% gain achieved) | [AbdiSQL/docs/](../AbdiSQL/docs/) |
+| 1 | **[AbdiSQL](../AbdiSQL/README.md)** | Text-to-SQL query generation & explanation | **Complete & Published (v1.0)** | Execution accuracy vs. zero-shot baseline (+3.34% gain achieved) | [AbdiSQL/docs/](../AbdiSQL/docs/) • [HF](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0) • [Kaggle](https://www.kaggle.com/models/abdulhayykhan/abdisql) |
 | 2 | **AbdiWrite** | Bilingual (Urdu/English) grammar & style correction | **Planned** | Manual rubric scoring vs. baseline | *None (Planned)* |
 | 3 | **AbdiTranslate** | Urdu ⇄ English sentence translation | **Planned** | BLEU / chrF vs. baseline | *None (Planned)* |
 | 4 | **AbdiCV** | Resume / cover letter drafting | **Planned** | Manual rubric scoring vs. baseline | *None (Planned)* |
@@ -28,13 +28,17 @@ Build order is strictly sequenced by data availability, objectivity of evaluatio
 
 ---
 
-## Model Spotlight: AbdiSQL v1 Summary
-- **Status:** **Gate Passed & Pipeline Validated**
+## Model Spotlight: AbdiSQL-1.0 Summary
+- **Status:** **Gate Passed & Publicly Released**
 - **Base Model:** `Qwen/Qwen2.5-Coder-1.5B-Instruct`
 - **Method:** QLoRA 4-bit on Google Colab T4 GPU
 - **Execution Accuracy (Held-out Split):** **54.67%** (vs. 51.33% zero-shot baseline, **+3.34% gain**)
 - **Execution Accuracy (Spider Dev Set):** **47.0%**
 - **Syntax Validity:** **69.33%**
+- **Public Registries:**
+  - Hugging Face Model: [`abdulhayykhan/AbdiSQL-1.0`](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0) (3.09 GB FP16)
+  - Kaggle Model: [`abdulhayykhan/abdisql`](https://www.kaggle.com/models/abdulhayykhan/abdisql)
+  - Kaggle Starter Notebook: [`abdulhayykhan/abdisql-starter`](https://www.kaggle.com/code/abdulhayykhan/abdisql-starter)
 - **Detailed Build History:** [AbdiSQL/docs/](../AbdiSQL/docs/) | [Results Benchmark](../AbdiSQL/RESULTS.md)
 
 ---

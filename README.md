@@ -2,7 +2,22 @@
 
 **A platform of small, domain-expert language models (SLMs), each specialized for one task, with a general-purpose fallback model for everything else.**
 
-> Status: early planning / build stage. Nothing below is final — build order, model sizes, and scope will change as real results come in. This document is a working plan, not a finished spec.
+> Status: active build stage. Model #1 (AbdiSQL-1.0) is complete, benchmarked (+3.34% gain over base), and published on Hugging Face and Kaggle. Remaining models are in planning.
+
+---
+
+## Published Models
+
+### AbdiSQL-1.0 (Model #1)
+- **Domain:** Natural Language → SQLite query generation & schema reasoning.
+- **Base Model:** `Qwen/Qwen2.5-Coder-1.5B-Instruct`
+- **Fine-Tuning:** QLoRA 4-bit (rank 8, alpha 16, lr=1e-4, 2 epochs) on single Tesla T4 GPU.
+- **Dataset:** Yale Spider benchmark (1,350 instruction pairs across 166 schemas).
+- **Evaluation Result:** **54.67% Execution Accuracy** (vs. 51.33% zero-shot base, **+3.34% gain**), **69.33% Syntax Validity**.
+- **Hugging Face Model:** [abdulhayykhan/AbdiSQL-1.0](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0) (3.09 GB safetensors weights + tokenizer)
+- **Kaggle Model:** [abdulhayykhan/abdisql](https://www.kaggle.com/models/abdulhayykhan/abdisql)
+- **Kaggle Starter Notebook:** [abdulhayykhan/abdisql-starter](https://www.kaggle.com/code/abdulhayykhan/abdisql-starter)
+- **Local Artifacts & Docs:** [AbdiSQL/README.md](AbdiSQL/README.md) | [AbdiSQL/RESULTS.md](AbdiSQL/RESULTS.md) | [AbdiSQL/docs/](AbdiSQL/docs/)
 
 ---
 
@@ -47,7 +62,7 @@ Models are built in an order chosen by **data availability, ease of objective ev
 
 | # | Model | Domain | Status |
 |---|-------|--------|--------|
-| 1 | AbdiSQL | SQL query generation/explanation | In progress |
+| 1 | [AbdiSQL](AbdiSQL/README.md) | SQL query generation/explanation | **Complete & Published (v1.0)** ([HF](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0) / [Kaggle](https://www.kaggle.com/models/abdulhayykhan/abdisql)) |
 | 2 | AbdiWrite | Bilingual (Urdu/English) writing & grammar correction | Planned |
 | 3 | AbdiTranslate | Urdu–English translation | Planned |
 | 4 | AbdiCV | Resume / cover letter generation | Planned |

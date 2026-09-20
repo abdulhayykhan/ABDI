@@ -42,7 +42,24 @@ A standalone Python script is provided in the repository at `AbdiSQL/inference.p
 python AbdiSQL/inference.py --schema "Table employees (id, name, salary)" --question "Who earns the highest salary?"
 ```
 
+## Public Model Registries & Deployment
+
+The merged FP16 weights, tokenizer, chat template, and metadata are published and publicly accessible across both major ML model hubs:
+
+1. **Hugging Face Hub:**
+   - Model Repository: [`abdulhayykhan/AbdiSQL-1.0`](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0)
+   - Published with complete in-depth Model Card, benchmark metrics, and Git LFS-tracked `model.safetensors` (3.09 GB) and `tokenizer.json`.
+   - Direct serving via `transformers.AutoModelForCausalLM`.
+
+2. **Kaggle Models:**
+   - Model Repository: [`abdulhayykhan/abdisql`](https://www.kaggle.com/models/abdulhayykhan/abdisql)
+   - Variation: `transformers` (Version 1, FP16 safetensors)
+   - Official Kaggle Starter Notebook: [`abdulhayykhan/abdisql-starter`](https://www.kaggle.com/code/abdulhayykhan/abdisql-starter)
+   - Tagged: `nlp`, `sql`, `transformers`, `text generation`.
+
+---
+
 ## Checkpoint / Gate Outcome
-- **Gate Requirement:** Exported model saved to Drive, documentation complete, standalone inference path established.
+- **Gate Requirement:** Exported model saved to Drive and published to public registries, documentation complete, standalone inference path established.
 - **Status:** **PASS**
-- **AbdiSQL Build Status:** **Complete (v1 Gate Passed)**
+- **AbdiSQL Build Status:** **Complete & Published (v1 Gate Passed)**

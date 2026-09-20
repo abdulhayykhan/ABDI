@@ -6,7 +6,10 @@
 - **Base Model:** `Qwen/Qwen2.5-Coder-1.5B-Instruct`
 - **Fine-Tuning Method:** QLoRA 4-bit (rank 8, alpha 16, dropout 0.05, lr=1e-4, 2 epochs)
 - **Trainable Parameters:** 1,089,536 (0.0705% of 1.54B total parameters)
-- **Merged Model Weights:** Saved to Google Drive at `/content/drive/MyDrive/abdi/abdisql/merged_model` (3.09 GB FP16)
+- **Merged Model Weights:** 3.09 GB FP16 (`model.safetensors`)
+- **Hugging Face Hub:** [`abdulhayykhan/AbdiSQL-1.0`](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0)
+- **Kaggle Models:** [`abdulhayykhan/abdisql`](https://www.kaggle.com/models/abdulhayykhan/abdisql)
+- **Kaggle Starter Notebook:** [`abdulhayykhan/abdisql-starter`](https://www.kaggle.com/code/abdulhayykhan/abdisql-starter)
 
 ---
 
