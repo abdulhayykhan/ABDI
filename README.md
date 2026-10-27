@@ -2,7 +2,7 @@
 
 **A platform of small, domain-expert language models (SLMs), each specialized for one task, with a general-purpose fallback model for everything else.**
 
-> Status: active build stage. Model #1 (AbdiSQL-1.0) is complete, benchmarked (+3.34% gain over base), and published on Hugging Face and Kaggle. Remaining models are in planning.
+> Status: active build stage. Model #1 (AbdiSQL-1.0) is complete, benchmarked (+3.34% gain over base), and published on Hugging Face and Kaggle. Model #2 (AbdiWrite) is in active development — Phase 1 (Dataset Preparation).
 
 ---
 
@@ -63,7 +63,7 @@ Models are built in an order chosen by **data availability, ease of objective ev
 | # | Model | Domain | Status |
 |---|-------|--------|--------|
 | 1 | [AbdiSQL](AbdiSQL/README.md) | SQL query generation/explanation | **Complete & Published (v1.0)** ([HF](https://huggingface.co/abdulhayykhan/AbdiSQL-1.0) / [Kaggle](https://www.kaggle.com/models/abdulhayykhan/abdisql)) |
-| 2 | AbdiWrite | Bilingual (Urdu/English) writing & grammar correction | Planned |
+| 2 | [AbdiWrite](AbdiWrite/README.md) | Bilingual (Urdu/English) writing & grammar correction | **In Progress — Phase 1 (Dataset)** |
 | 3 | AbdiTranslate | Urdu–English translation | Planned |
 | 4 | AbdiCV | Resume / cover letter generation | Planned |
 | 5 | AbdiData | Spreadsheet / tabular data Q&A | Planned |
@@ -99,3 +99,5 @@ This project is also intended to form the basis of a thesis and potential public
 ## Disclaimer
 
 Everything in this repository is a work-in-progress research/learning project. Domains involving health (AbdiMed) and legal content (AbdiLaw) are explicitly scoped to information/explanation only and are not a substitute for professional medical or legal advice.
+
+
